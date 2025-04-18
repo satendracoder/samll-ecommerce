@@ -1,0 +1,11 @@
+.btn{
+    background-color: tomato;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgba(255, 99, 71, 0.74);
+    }
+}

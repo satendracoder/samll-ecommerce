@@ -3,4 +3,10 @@
     position: fixed;
     width: 100%;
     z-index: 999;
+
+    .logo{
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: 600;
+    }
 }

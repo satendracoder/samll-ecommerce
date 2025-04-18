@@ -4,7 +4,7 @@
         <h2 class="product-title">{{ product().title }}</h2>
         <p class="product-description">{{ product().description }}</p>
         <div class="product-footer">
-            <span class="product-price">${{ product().price }}</span>
+            <span class="product-price">{{ product().price }}</span>
             <span class="product-stock" [ngClass]="product().stock ? 'instock' : 'out-of-stock'">
                 @if (product().stock) {
                     {{ product().stock }} left

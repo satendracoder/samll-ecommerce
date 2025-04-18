@@ -1,1 +1,11 @@
-<p>cart works!</p>
+<div class="cart-page">
+    <app-order-summary></app-order-summary>
+  
+    <div class="shopping-cart-wrapper">
+      <h2 class="shopping-cart-heading">🛒 Shopping Cart</h2>
+      @for (item of CartService.cart(); track item.id) {
+        <app-cart-item [item]="item"></app-cart-item>
+      }
+    </div>
+  </div>
+  

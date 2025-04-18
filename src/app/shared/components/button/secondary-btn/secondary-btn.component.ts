@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 
 @Component({
   selector: 'app-secondary-btn',
@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './secondary-btn.component.scss'
 })
 export class SecondaryBtnComponent {
+  lableName = input('');
+  
+  btnClicked = output();
 
 }

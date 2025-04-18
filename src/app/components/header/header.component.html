@@ -1,7 +1,7 @@
 <div class="header max-w-full shadow-md h-15 flex justify-around items-center">
-    <div class="logo text-black font-semibold">E-Commerce</div>
+    <div class="logo text-black font-semibold" routerLink="/">Small E-Commerce</div>
     <app-primary-btn routerLink="/cart" [lableName]="'Cart (' + cartService.cart().length + ')'"
         (btnClicked)="showBtnChecked()"></app-primary-btn>
 </div>
 
-<app-product-list></app-product-list>
+<router-outlet></router-outlet>

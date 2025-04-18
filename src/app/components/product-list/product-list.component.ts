@@ -10,6 +10,15 @@ import { ProductCardComponent } from "../product-card/product-card.component";
 })
 export class ProductListComponent {
 
+//   url='https://dummyjson.com/products'
+//  async ngOnInit() {
+//     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
+//     //Add 'implements OnInit' to the class.
+//     const res = await fetch(this.url);
+//     const data = await res.json();
+//     this.product.set(data);
+//   }
+
   product = signal<Product[]>([
     {
       id: 1,

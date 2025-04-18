@@ -1,0 +1,50 @@
+.order-summary {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    max-width: 550px;
+    margin:20px auto;
+    .summary-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #333;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+  
+    .summary-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      font-size: 1rem;
+      color: #555;
+  
+      &.total {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #222;
+        border-top: 1px solid #eee;
+      }
+    }
+  
+    .checkout-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #2d8fdd;
+      color: white;
+      font-weight: 500;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+  
+      &:hover {
+        background-color: #1c6cc9;
+      }
+    }
+  }
+  
